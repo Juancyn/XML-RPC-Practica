@@ -35,7 +35,7 @@ function menu() {
   console.log("2. Leer operaciones");
   console.log("3. Actualizar operacion");
   console.log("4. Eliminar operacion");
-  console.log("5. Salir");
+  console.log("5. Guardar");
 }
 
 
@@ -119,7 +119,7 @@ while (true) {
   else if (opcion === "3") actualizarOperacion();
   else if (opcion === "4") eliminarOperacion();
   else if (opcion === "5") {
-    console.log(" Cerrando...");
+    console.log(" Guardando datos...");
     break;
   } else {
     console.log(" Opcion invalida. Intenta de nuevo.");
